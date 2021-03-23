@@ -1,0 +1,32 @@
+.underLine {
+  border-bottom: 4px solid rgb(81, 212, 28);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.selectedPlayer-cart {
+  display: flex;
+  margin-top: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  height: 110px;
+}
+.selectedPlayer-cart img {
+  width: 80px;
+}
+.playerText {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.selectedPlayer-cart:hover {
+  transform: scale(1.07);
+}
+@media only screen and (max-width: 991px) {
+  .selectedPlayer-cart {
+    width: 100%;
+    height: 100%;
+  }
+}
